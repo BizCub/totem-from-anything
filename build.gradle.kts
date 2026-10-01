@@ -3,14 +3,15 @@ plugins {
 }
 
 multiloader {
-    setMREnvironment(mrEnvs.clientOnly)
-    setCFEnvironment(cfEnvs.client)
+    setMREnvironment(mrEnvs.serverOnly)
+    setCFEnvironment(cfEnvs.server)
 
     versionRange(version = "26.1.2", to = "latest")
     versionRange(version = "1.21.1", to = "1.21.11")
     versionRange(version = "1.21.1", from = "1.20.6", loader = "forge")
     versionRange(version = "1.21.1", from = "1.21", loader = "neoforge")
     versionRange(version = "1.20.1", to = "1.20.4", loader = "forge")
+    versionRange(version = "1.20.1", to = "1.21.11")
 
     if (isFabric) {
         addDependency(

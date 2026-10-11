@@ -1,5 +1,4 @@
-//? forge {
-/*package io.github.bizcub.totemFromAnything.platform;
+package io.github.bizcub.totemFromAnything.forge;
 
 import io.github.bizcub.totemFromAnything.TotemFromAnything;
 import net.minecraftforge.fml.common.Mod;
@@ -7,4 +6,4 @@ import net.minecraftforge.fml.common.Mod;
 @Mod(TotemFromAnything.MOD_ID)
 public class Forge {
 
-}*///?}
+}

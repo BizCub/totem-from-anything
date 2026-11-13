@@ -1,4 +1,4 @@
-package io.github.bizcub.totemFromAnything.forge;
+package io.github.bizcub.totemFromAnything.platform;
 
 import io.github.bizcub.totemFromAnything.TotemFromAnything;
 import net.minecraftforge.fml.common.Mod;
